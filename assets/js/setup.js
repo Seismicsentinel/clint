@@ -25,7 +25,7 @@ const pauseChar = "|&nbsp;|";
 let engine;
 let toMove;
 let engineStatus = 0;
-const globalDepth = 15;
+const globalDepth = 21;
 let viewPortSize = () => window.innerWidth >= 1260 ? 'L' : window.innerWidth >= 800 ? "M" : "S";
 
 var viewSize = viewPortSize();
